@@ -17,6 +17,7 @@ declare class Utilities {
         forexPairs: string;
         indices: string;
         price: string;
+        profile: string;
         quote: string;
         stocks: string;
         symbolSearch: string;

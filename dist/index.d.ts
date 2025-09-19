@@ -12,6 +12,7 @@ declare function twelvedata(config: any): {
     forexPairs: (params: any) => Promise<any>;
     indices: (params: any) => Promise<any>;
     price: (params: any) => Promise<any>;
+    profile: (params: any) => Promise<any>;
     quote: (params: any) => Promise<any>;
     stocks: (params: any) => Promise<any>;
     symbolSearch: (params: any) => Promise<any>;
