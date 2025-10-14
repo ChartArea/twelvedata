@@ -11,9 +11,9 @@
 
   let fetch;
   if (typeof window === "undefined") {
-    fetch = require("cross-fetch");
+    const fetch = require("cross-fetch");
   } else {
-    fetch = window.fetch;
+    const fetch = window.fetch;
   }
 
   const BASE_URL = "https://api.twelvedata.com";
